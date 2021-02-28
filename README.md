@@ -8,7 +8,7 @@
 ``mex sttc.c -R2018a``
 ---
 ## List of core files ##
-| File            | Function      |
+|File            |Function      |
 | ----------------|:-------------|
 | `sttc.c`        | Main script for STTC |
 | `get_sttc.m`.   | Parses inputs from MATLAB and passes them to `sttc.c`| 
