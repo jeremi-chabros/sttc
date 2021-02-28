@@ -4,7 +4,7 @@
  *   See the original paper: https://www.ncbi.nlm.nih.gov/pubmed/25339742
 
 **IMPORTANT:** If you don't have the appropriate `.mex` version of your `.c` script (e.g. `.mexmaci64` for OSX, `.mexw64` for Windows), you need to first run in command window:
-``mex sttc.c -R2018a``
+`mex sttc.c -R2018a`
 ---
 ## List of core files ##
 |File            |Function      |
