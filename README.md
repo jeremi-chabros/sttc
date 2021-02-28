@@ -9,7 +9,7 @@
 ---
 ## List of core files ##
 |File            |Function      |
-| ----------------|:-------------|
+| ----------------|-------------|
 | `sttc.c`        | Main script for STTC |
 | `get_sttc.m`.   | Parses inputs from MATLAB and passes them to `sttc.c`| 
 | `adjM_thr_JC.m` | Runs probabilistic thresholding of adjacency matrix output by `get_sttc.m`|
