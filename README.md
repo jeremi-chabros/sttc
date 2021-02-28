@@ -9,13 +9,13 @@
 ---
 ## List of core files ##
 | File            | Function      |
-| ----------------|:-------------:|
+| ----------------|:-------------|
 | `sttc.c`        | Main script for STTC |
 | `get_sttc.m`.   | Parses inputs from MATLAB and passes them to `sttc.c`| 
 | `adjM_thr_JC.m` | Runs probabilistic thresholding of adjacency matrix output by `get_sttc.m`|
 | `significance_distribution_plots.m`| Dependency of `adjM_thr_JC.m`, plots the evolution of threshold weights over iterations|
 ---
 ## Auxillary files ##
-`cshift.c` runs ultra-fast circular shifts on binary arrays. Not used - requires inefficient conversion from event times to binary event matrix.
-`cshift_test.m` rough draft of some of the utilities now moved to `adjM_thr_JC.m`.
+* `cshift.c` runs ultra-fast circular shifts on binary arrays. Not used - requires inefficient conversion from event times to binary event matrix.
+* `cshift_test.m` rough draft of some of the utilities now moved to `adjM_thr_JC.m`.
 
