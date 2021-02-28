@@ -15,7 +15,8 @@ If you don't have the appropriate `.mex` version of your `.c` script (e.g. `.mex
 | ----------------|-------------|
 | `sttc.c`        | Main script for STTC |
 | `get_sttc.m`.   | Parses inputs from MATLAB and passes them to `sttc.c`| 
-| `adjM_thr_JC.m` | Runs probabilistic thresholding of adjacency matrix output by `get_sttc.m`|
+| `adjM_thr_JC.m` | Runs probabilistic thresholding of adjacency matrix output by `get_sttc.m`. Slow but with plots for troubleshooting.|
+| `adjM_thr_parallel` | Parallel computing version of `adjM_thr_JC.m`. **Much** faster but does not support plotting.
 | `significance_distribution_plots.m`| Dependency of `adjM_thr_JC.m`, plots the evolution of threshold weights over iterations|
 | `cmocean.m`| Perceptually uniform (colorblind friendly) colormaps. See: https://uk.mathworks.com/matlabcentral/fileexchange/57773-cmocean-perceptually-uniform-colormaps.
 
