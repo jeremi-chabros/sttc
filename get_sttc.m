@@ -36,7 +36,7 @@ for i = 1:length(combins)
     dtv = lag_ms/1000; % [s]
     dtv = double(dtv);
     Time = double([0 duration_s]);
-    tileCoef = sttc(N1v, N2v, dtv, Time, spike_times_1, spike_times_2);
+    tileCoef = STTC(N1v, N2v, dtv, Time, spike_times_1, spike_times_2);
     A(i) = tileCoef; % Faster to only get upper triangle so might as well store as vector
 end
 
