@@ -7,13 +7,13 @@
 
 If you don't have the appropriate `.mex` version of your `.c` script (e.g. `.mexmaci64` for OSX, `.mexw64` for Windows), you need to first run in command window:
 
-`mex sttc.c -R2018a`
+`mex STTC.c -R2018a`
 
 ---
 ## List of core files ##
 |File            |Function      |
 | ----------------|-------------|
-| `sttc.c`        | Main script for STTC |
+| `STTC.c`        | Main script for STTC |
 | `get_sttc.m`.   | Parses inputs from MATLAB and passes them to `sttc.c`| 
 | `adjM_thr_JC.m` | Runs probabilistic thresholding of adjacency matrix output by `get_sttc.m`. Slow but with plots for troubleshooting.|
 | `adjM_thr_parallel.m` | Parallel computing version of `adjM_thr_JC.m`. **Much** faster but does not support plotting.
